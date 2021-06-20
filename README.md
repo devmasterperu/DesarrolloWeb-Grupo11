@@ -19,7 +19,7 @@ Desarrollo Web con Html5, Css3 y JavaScript - 11° Edición - Docente: Jesús Al
 
 - img, br
 
-## TRANAJOS
+## TRABAJOS
 
 ### PRACTICA 01 (SEMANA 01)
 
