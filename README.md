@@ -18,6 +18,8 @@ Desarrollo Web con Html5, Css3 y JavaScript - 11° Edición - Docente: Jesús Al
 - Más Etiquetas (span, b, strong, i, em, u, s, small, sub, sup, abbr, cite, blockquote, mark, details y summary)
 - Estructura HTML de nuestro Proyecto Real (Avance)
 
+## ELEMENTOS: INLINE & BLOCK
+
 ### ELEMENTOS DE BLOQUE
 
 - h1, h2, h3, h4, h5, h6, p, ul, ol, hr, blockquote, details, dl, dt, dd, figure, figcaption.
