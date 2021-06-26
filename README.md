@@ -17,7 +17,7 @@ Desarrollo Web con Html5, Css3 y JavaScript - 11° Edición - Docente: Jesús Al
 
 ### ELEMENTIO INLINE
 
-- img, br
+- img, br, span
 
 ## TRABAJOS
 

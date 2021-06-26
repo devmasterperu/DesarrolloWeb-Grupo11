@@ -1,0 +1,34 @@
+COMANDOS BÁSICOS EN UNIX:
+
+$cd nombre-directorio
+Entra al directorio
+
+$cd ..
+Retroceder un directorio
+
+$cd ../../ 
+Retroceder dos directorios
+
+$cd
+Nos lleva al directorio raiz home
+
+$ls
+Lista archivos y directorios
+
+$ls -a
+Igual a $ls más archivos ocultos
+
+$touch mi-archivo.txt
+Crear archivo
+
+$cat mi-archivo.txt
+Muestra en consola el contenidos de un archivo
+
+$rm mi-archivo.txt
+Borrar un archivo
+
+$rm -r nombre-directorio
+Borrar un directorio
+
+$mkdir mi-directorio
+Crear directorio
