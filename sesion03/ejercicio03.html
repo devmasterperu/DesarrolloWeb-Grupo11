@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Descripción de nuestra web">
+        <title>Devmaster Perú</title>
+    </head>
+    <body>
+        <main>
+            <section>
+                <!-- https://lorempixel.com/400/400/ -->
+                <figure>
+                    <img src="https://lorempixel.com/400/400/" alt="texto alternativo" title="soy una imagen">
+                </figure>
+            </section>
+
+            <section>
+                <!-- <h2>REGISTRAR USUARIO</h2> -->
+                <form action="" method="">
+                    <fieldset>
+                        <legend>REGISTRAR USUARIO</legend>
+                        <label>NOMBRES</label>
+                        <input type="text" name="nombres" required> <br><br> <!-- nombre -->
+                        <label>EMAIL</label>
+                        <input type="email" name="email" required> <br><br><!-- correo electronico -->
+                        <label>CONTRASEÑA</label>
+                        <input type="password" name="contraseña" required> <br><br> <!-- password -->
+                        <label>SEXO</label>
+                        <input type="radio" name="sexo"> HOMBRE
+                        <input type="radio" name="sexo" checked> MUJER <br><br>
+                        <input type="hidden" name="id">
+                        <label>MENSAJE</label>
+                        <textarea name="mensaje" cols="30" rows="10"></textarea> <br><br>
+                        <input type="checkbox"> He leido y acepto los <a href="#">TERMINOS Y CONDICIONES</a><br><br>
+                        <!-- catpcha -->
+    
+                        <!-- <input type="submit" value="REGISTRAR"> 
+                        <input type="reset" value="LIMPIAR CAMPOS"> 
+                        <input type="button" value="ACCION"> -->
+    
+                        <button type="submit">REGISTRAR</button>
+                        <button type="reset">LIMPIAR CAMPOS</button>
+                        <button type="button">ACCION</button>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
