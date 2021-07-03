@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Descripción de nuestra web">
+        <title>Devmaster Perú</title>
+    </head>
+    <body>
+        <!--
+            \s (espacio)
+            {} (cantidad de caracteres)
+            [a-z] (solo texto - en miniscula)
+            [A-Za-z] (solo texto - en miniscula y mayuscula)
+            [0-9] (solo numero)
+
+        -->
+        <form action="registro-exitoso.html" method="POST">
+            <fieldset>
+                <legend>CONTACTANOS</legend>
+                <label>NOMBRES</label>
+                <input type="text" name="nombres" pattern="[A-Za-záéíóú\s]{1,30}" title="Solo texto" required> <br>
+                <label>APELLIDOS</label>
+                <input type="text" name="apellidos" pattern="[A-Za-záéíóú\s]{1,30}" title="Solo texto" required> <br>
+                <label>CORREO</label>
+                <input type="email" name="correo" required> <br>
+                <label>DNI</label> <!-- DPI--> <!-- maximo 8 -->
+                <input type="text" name="dni" pattern="[0-9]{8}" title="Solo número con 8 digitos" required> <br>
+                <label>EDAD</label>
+                <!-- <input type="text" name="edad" pattern="[0-9]{1,3}" title="Solo número" required> <br> -->
+                <input type="number" name="edad" min="1" max="100" title="Solo número" required> <br>
+                <label>SEXO</label>
+                <input type="radio" name="sexo" checked> MASCULINO
+                <input type="radio" name="sexo"> FEMENINO <br>
+                <label>PROVINCIA</label>
+                <select name="provincia" required>
+                    <option value="" disabled selected>Seleccione...</option>
+                    <option value="Huaura">Huaura</option>
+                </select> <br>
+                <label>DISTRITO</label>
+                <select name="distrito" required>
+                    <option value="" disabled selected>Seleccione...</option>
+                    <option value="Huacho">Huacho</option>
+                    <option value="Carquin">Carquin</option>
+                    <option value="Carquin">Caleta de Carquin</option>
+                    <option value="Carquin">Hualmay</option>
+                </select> <br>
+                <label>MENSAJE</label> <br>
+                <textarea name="mensaje" cols="30" rows="10" required></textarea> <br>
+                <button type="submit">ENVIAR</button>
+                <button type="reset">RESTABLECER</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
