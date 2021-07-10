@@ -1,0 +1,106 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Roboto+Mono:wght@700&display=swap'); */
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: 
+        url('../fonts/playfair-display-v15-latin-regular.eot') format('embedded-opentype'),
+        url('../fonts/playfair-display-v15-latin-regular.woff2') format('woff2'),
+        url('../fonts/playfair-display-v15-latin-regular.woff') format('woff'),
+        url('../fonts/playfair-display-v15-latin-regular.ttf') format('truetype'),
+        url('../fonts/playfair-display-v15-latin-regular.svg') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: 
+        url('../fonts/playfair-display-v15-latin-700.eot') format('embedded-opentype'),
+        url('../fonts/playfair-display-v15-latin-700.woff2') format('woff2'),
+        url('../fonts/playfair-display-v15-latin-700.woff') format('woff'),
+        url('../fonts/playfair-display-v15-latin-700.ttf') format('truetype'),
+        url('../fonts/playfair-display-v15-latin-700.svg') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: 
+        url('../fonts/playfair-display-v15-latin-900italic.eot') format('embedded-opentype'),
+        url('../fonts/playfair-display-v15-latin-900italic.woff2') format('woff2'),
+        url('../fonts/playfair-display-v15-latin-900italic.woff') format('woff'),
+        url('../fonts/playfair-display-v15-latin-900italic.ttf') format('truetype'),
+        url('../fonts/playfair-display-v15-latin-900italic.svg') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Space Rave';
+    src: 
+        url('../fonts/SpaceRave.eot') format('embedded-opentype'),
+        url('../fonts/SpaceRave.woff2') format('woff2'),
+        url('../fonts/SpaceRave.woff') format('woff'),
+        url('../fonts/SpaceRave.ttf') format('truetype'),
+        url('../fonts/SpaceRave.svg') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KaushanScript-Regular';
+    src: 
+        url('../fonts/KaushanScript-Regular.eot') format('embedded-opentype'),
+        url('../fonts/KaushanScript-Regular.woff2') format('woff2'),
+        url('../fonts/KaushanScript-Regular.woff') format('woff'),
+        url('../fonts/KaushanScript-Regular.ttf') format('truetype'),
+        url('../fonts/KaushanScript-Regular.svg') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+  
+h1 {
+    /* font-family: serif; */
+    /* font-family: sans-serif; */
+    /* font-family: monospace; */
+    /* font-family: 'Playfair Display'; */
+    /* font-weight: 900; */
+    /* font-style: italic; */
+
+    font-family: 'Montserrat', serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+h2 {
+    font-family: 'Space Rave', serif;
+    font-weight: 400;
+
+    font-size: 28px;
+    text-align: right;
+}
+
+h3 {
+    font-family: 'KaushanScript-Regular', serif;
+    font-weight: 400;
+
+    /* text-transform: uppercase; */
+}
+
+p {
+    /* font-size: xx-small; */
+    /* font-size: x-small; */
+    /* font-size: small; */
+    /* font-size: medium */
+    /* font-size: large; */
+    /* font-size: x-large; */
+    /* font-size: xx-large; */
+    /* font-size: 16px; */
+    font-size: 18px;
+    line-height: 27px;
+    text-align: justify;
+    word-spacing: 2px;
+    text-decoration: line-through;
+    text-indent: 30px;
+}

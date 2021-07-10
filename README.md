@@ -35,6 +35,10 @@ Desarrollo Web con Html5, Css3 y JavaScript - 11° Edición - Docente: Jesús Al
 
 - img, br, span, b, strong, i, em, u, s, sub, sup, abbr, cite, small, mark.
 
+### PLUGINS VSC
+
+- AUTOPREFIXER
+
 ## TRABAJOS
 
 MUY BIEN 😀
