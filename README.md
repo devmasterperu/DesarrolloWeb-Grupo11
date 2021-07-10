@@ -42,6 +42,7 @@ BIEN 🙂
 REGULAR 🙄
 ESFUERZATE MÁS 😐
 MAL (FALTO A CLASES) 😢
+
 ### PRACTICA 01 (SEMANA 01)
 
 - Antony Morales 😀
