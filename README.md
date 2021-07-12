@@ -24,6 +24,18 @@ Desarrollo Web con Html5, Css3 y JavaScript - 11° Edición - Docente: Jesús Al
 - Más Etiquetas (fieldset, legend)
 - Etiquetas de formulario (input "text, email, password, tel, number, date, month, week, time, search, url, color, file, radio, checkbox, hidden, submit, reset, button", textarea, select, option, optgroup, datalist, button) y atributos como: action, method, name, checked, disabled, selected, min, max, maxlength, cols, rows.
 
+## SESION 04
+
+- Más Etiquetas (audio, video, source, iframe, object, map y area)
+- Cascada en CSS
+- Principales propiedades CSS para texto
+- Familias tipográficas genéricas
+- Recursos para descargar fuentes (dafont, fontsquirrel, etc)
+- Haciendo uso de tipografias desde Google Fonts
+- Normalize CSS
+- Prefijos CSS de navegadores
+- Autoprefixer
+
 ## ELEMENTOS: INLINE & BLOCK
 
 ### ELEMENTOS DE BLOQUE
@@ -33,7 +45,7 @@ Desarrollo Web con Html5, Css3 y JavaScript - 11° Edición - Docente: Jesús Al
 
 ### ELEMENTIO INLINE
 
-- img, br, span, b, strong, i, em, u, s, sub, sup, abbr, cite, small, mark.
+- img, br, span, b, strong, i, em, u, s, sub, sup, abbr, cite, small, mark, audio, video, source, iframe, object, map y area
 
 ### PLUGINS VSC
 
@@ -71,3 +83,12 @@ MAL (FALTO A CLASES) 😢
 - Karen 😀
 - Cristian Giron 😢
 - José Alcalde 😢
+
+### PRACTICA 04 (SEMANA 04)
+
+- Antony Morales 😀
+- David Aldana 😀
+- Jeancarlos 😀
+- Karen 😀
+- Cristian Giron 😢
+- José Alcalde 😀
