@@ -1,0 +1,20 @@
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Zilla Slab', serif; */
+
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif; /* FAMILIA TIPOGRAFIA */
+    font-size: inherit; /* TAMAÑO DE LETRA*/
+    line-height: 22px; /* ALTO DE LINEA */
+    font-weight: 400; /* GROSOR O PESO TIPOGRAFICO*/
+}
+
+h1 {
+    font-family: 'Zilla Slab', serif; 
+    font-size: 70px; 
+    line-height: 84px; 
+    font-weight: 300; 
+}
