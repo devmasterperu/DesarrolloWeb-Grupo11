@@ -1,0 +1,64 @@
+
+/* 
+    font-family: 'Zilla Slab', serif; 
+    font-family: 'Raleway', serif;
+*/
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Raleway', serif;
+    font-size: inherit;
+    line-height: 19px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 700;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+.card {
+    width: 380px;
+    border: 1px solid #E3E3E3;
+    border-radius: 7px;
+    margin: 0 auto;
+}
+.card .card-content {
+    padding: 30px;
+}
+.card h2 {
+    margin-bottom: 10px;
+}
+.card p {
+    margin-bottom: 20px;
+}
+.card .card-btn {
+    text-align: center;
+}
+.card a {
+    display: inline-block;
+    background-color: #FF0402;
+    color: white;
+    padding: 13px 19px;
+    border-radius: 30px;
+}
