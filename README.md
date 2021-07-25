@@ -36,6 +36,15 @@ Desarrollo Web con Html5, Css3 y JavaScript - 11° Edición - Docente: Jesús Al
 - Prefijos CSS de navegadores
 - Autoprefixer
 
+## SESION 05
+
+- Herencia en CSS
+- Modelo de Caja (content, padding, border y margin)
+- Box-sizing
+- Colapso de margenes
+- Bordes redondeados
+- Maquetando Card (Diseño Adobe XD)
+
 ## ELEMENTOS: INLINE & BLOCK
 
 ### ELEMENTOS DE BLOQUE
@@ -47,7 +56,7 @@ Desarrollo Web con Html5, Css3 y JavaScript - 11° Edición - Docente: Jesús Al
 
 - img, br, span, b, strong, i, em, u, s, sub, sup, abbr, cite, small, mark, audio, video, source, iframe, object, map y area
 
-### PLUGINS VSC
+## PLUGINS VSC
 
 - AUTOPREFIXER
 
