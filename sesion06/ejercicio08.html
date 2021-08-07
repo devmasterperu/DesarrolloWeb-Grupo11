@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Descripción de nuestra web">
+        <title>Devmaster Perú</title>
+        <style>
+            section {
+                background-color: deeppink;
+                width: 800px;
+                height: 400px;
+
+                display: flex;
+                /* flex-direction: row;  row | row-reverse | column | column-reverse*/
+                 justify-content: normal; /* center | flex-start | flex-end | space-around | space-between */
+                /* flex-wrap: nowrap;  wrap | nowrap | wrap-reverse */
+
+                flex-flow: row nowrap; /* flex-flow: flex-direction flex-wrap; */
+                
+                align-items: baseline; /* center | flex-start | flex-end | stretch | baseline */
+            }
+            article {
+                background-color: teal;
+                width: 100px;
+                height: 100px;
+            }
+            section :nth-child(2) {
+                font-size: 80px;
+            }
+        </style>
+    </head>
+    <body>
+        <section> <!-- elemento padre -->
+            <article>1</article> <!-- elemento hijo -->
+            <article>2</article> <!-- elemento hijo -->
+            <article>3</article> <!-- elemento hijo -->
+            <article>4</article> <!-- elemento hijo -->
+        </section>
+    </body>
+</html>

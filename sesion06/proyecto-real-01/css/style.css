@@ -1,0 +1,102 @@
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Zilla Slab', serif; */
+:root {
+    --primary-color: #FF0402;
+    --secondary-color: #232E3E;
+    --terterary-color: #A0A3A8;
+    --quaternary-color: ;
+    --quinary-color: ;
+
+    --black-color: #000000;
+    --white-color: #FFFFFF;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: inherit;
+    line-height: 23px;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 84px;
+}
+
+h2 {
+    font-size: 50px;
+    line-height: 60px;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+/*******************
+Components
+*******************/
+.container {
+    outline: 1px dashed deeppink;
+    width: 1290px;
+    margin: 0 auto;
+}
+
+
+/*******************
+Style
+*******************/
+/* Banner */
+.banner {
+    height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner p {
+    width: 700px;
+    text-align: center;
+}
+.banner span {
+    color: var(--primary-color);
+}
+
+.btn {
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 21px;
+    font-weight: 700;
+    width: 170px;
+    padding: 10px 0;
+    border: 2px solid var(--primary-color);
+}
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+.btn-secondary {
+    color: var(--primary-color);
+    /* border: 2px solid var(--primary-color); */
+}
+
+/* Features */
