@@ -1,0 +1,346 @@
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Zilla Slab', serif; */
+:root {
+    --primary-color: #FF0402;
+    --secondary-color: #232E3E;
+    --terterary-color: #A0A3A8;
+    --quaternary-color: #F5FAFD;
+    --quinary-color: #FBFBFB;
+
+    --black-color: #000000;
+    --white-color: #FFFFFF;
+}
+
+/*********************
+Generals
+*********************/
+* {
+   box-sizing: border-box; 
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    background: var(--quinary-color);
+    font-family: 'Raleway', sans-serif;
+    font-size: inherit;
+    line-height: 23px;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 84px;
+}
+
+h2 {
+    font-size: 50px;
+    line-height: 60px;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+/*******************
+Components
+*******************/
+.container {
+    /* outline: 1px dashed deeppink; */
+    /* width: 1290px; */
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.btn {
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 21px;
+    font-weight: 700;
+    width: 178px;
+    padding: 10px 0;
+    margin-top: 20px;
+    border: 2px solid var(--primary-color);
+}
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+.btn-secondary {
+    color: var(--primary-color);
+}
+.btn-terteary {
+    color: var(--white-color);
+    border: 2px solid var(--white-color);
+}
+.btn-primary:hover,
+.btn-secondary:hover,
+.btn-terteary:hover {
+    opacity: 0.7;
+}
+
+.title {
+    text-align: center;
+    padding-top: 96px;
+    padding-bottom: 40px;
+}
+.title span {
+    display: block;
+    color: var(--primary-color);
+    font-size: 18px;
+    line-height: 23px;
+}
+/*******************
+Style
+*******************/
+
+/* Banner */
+.main-banner {
+    background-image: url('../img/banner.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.banner {
+    height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner h1 {
+    margin-bottom: 10px;
+}
+.banner p {
+    width: 700px;
+    text-align: center;
+}
+.banner span {
+    color: var(--primary-color);
+}
+
+.banner div a:not(:last-child) {
+    margin-right: 20px;
+}
+/* Features */
+.features {
+    display: flex;
+    flex-wrap: wrap; /* default: nowrap*/
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.card-1 {
+    background-color: var(--quaternary-color);
+    width: 280px;
+    text-align: center;
+    padding: 25px 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.card-1 span {
+    color: var(--primary-color);
+    font-size: 65px;
+    line-height: 62px;
+}
+.card-1 h3 {
+    margin-top: 5px;
+}
+.features .card-1:not(:last-child) {
+    margin-right: 20px;
+}
+
+/* My Services */
+.my-services {
+    padding-bottom: 40px;
+}
+.card-2 {
+    display: flex;
+    margin-bottom: 30px;
+}
+.card-2 figure {
+    margin-right: 20px;
+
+    position: relative;
+}
+.card-2 figcaption {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    width: 140px;
+    padding: 10px 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+.main-my-services .card-2:nth-child(3) {
+    flex-direction: row-reverse;
+}
+.main-my-services .card-2:nth-child(3) figure {
+    margin-right: 0;
+}
+/*
+.reverse {
+    flex-direction: row-reverse;
+}
+.reverse figure {
+    margin-right: 0;
+}
+*/
+
+/* WhatssApp */
+.main-whatssapp {
+    background-color: var(--secondary-color)
+}
+.whatssapp {
+    text-align: center;
+    padding: 118px 0;
+}
+.whatssapp h2 {
+    color: var(--white-color)
+}
+
+/* Recommendations */
+.recommendations {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+.card-3 {
+    background-color: var(--quaternary-color);
+    width: 380px;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    border: 1px solid grey;
+}
+.card-3 figcaption {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.card-3 figcaption span {
+    font-weight: 400;
+    color: var(--terterary-color)
+}
+.card-3 img {
+    margin: 0 auto 17px;
+}
+.card-3 span {
+    display: block;
+}
+.card-3 p {
+    color: var(--terterary-color);
+    text-align: center;
+}
+.recommendations .card-3:not(:last-child) {
+    margin-right: 20px;
+}
+
+/* Form */
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 70px;
+    /* flex-direction: column; */
+}
+.form input {
+    height: 56px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 18px 21px;
+}
+.form textarea {
+    height: 175px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 18px 21px;
+}
+.form input,
+.form textarea {
+    width: 1180px;
+
+}
+.form :nth-child(1) {
+    margin-right: 20px;
+}
+.form :nth-child(1),
+.form :nth-child(2) {
+    width: 580px;
+}
+.form :not(:nth-child(4),:nth-child(5)) {
+    margin-bottom: 30px;
+}
+
+/* Footer */
+.main-footer {
+    background-color: var(--black-color);
+}
+.main-footer ul {
+    display: flex;
+    justify-content: center;
+}
+.main-footer li a {
+    color: var(--white-color);
+    font-size: 24px;
+    line-height: 24px;
+    display: inline-block;
+}
+.main-footer li a:hover {
+    color: var(--primary-color);
+    transform: scale(1.3); /* Antony quizo*/
+}
+.main-footer li:not(:last-child) {
+    margin-right: 15px;
+}
+.main-footer p {
+    color: var(--terterary-color);
+    text-align: center;
+    margin-top: 28px;
+}
+.main-footer p a {
+    color: var(--terterary-color);
+    text-decoration: underline;
+}
+.footer {
+    padding: 54px 0;
+}
