@@ -1,0 +1,75 @@
+:root {
+    --black-color: #000;
+}
+/*********************
+Generals
+*********************/
+html {
+    font-size: 16px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-size: 46px;
+    line-height: 56px;
+}
+
+h2 {
+    font-size: 38px;
+    line-height: 42px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+/*******************
+Components
+*******************/
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.title small {
+    display: block;
+}
+.title span {
+    position: relative
+}
+.title span::before {
+    content: '';
+    display: inline-block;
+    background-color: var(--black-color);
+    width: 80px;
+    height: 4px;
+
+    position: absolute;
+    left: -100px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.title span::after {
+    content: '';
+    display: inline-block;
+    background-color: var(--black-color);
+    width: 80px;
+    height: 4px;
+
+    position: absolute;
+    right: -100px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/*******************
+Style
+*******************/
+/* Portafolio */
+.portfolio {
+    padding: 50px 0;
+}
+.elem-card img{
+    margin: 0 auto;
+}

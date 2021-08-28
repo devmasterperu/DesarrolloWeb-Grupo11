@@ -1,0 +1,465 @@
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Zilla Slab', serif; */
+:root {
+    --primary-color: #FF0402;
+    --secondary-color: #232E3E;
+    --terterary-color: #A0A3A8;
+    --quaternary-color: #F5FAFD;
+    --quinary-color: #FBFBFB;
+
+    --black-color: #000000;
+    --white-color: #FFFFFF;
+}
+
+/*********************
+Generals
+*********************/
+* {
+   box-sizing: border-box; 
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    background: var(--quinary-color);
+    font-family: 'Raleway', sans-serif;
+    font-size: inherit;
+    line-height: 23px;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 84px;
+}
+
+h2 {
+    font-size: 50px;
+    line-height: 60px;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+/*******************
+Components
+*******************/
+.container {
+    /* outline: 1px dashed deeppink; */
+    /* width: 1290px; */
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.btn {
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 21px;
+    font-weight: 700;
+    width: 178px;
+    padding: 10px 0;
+    margin-top: 20px;
+    border: 2px solid var(--primary-color);
+}
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+.btn-secondary {
+    color: var(--primary-color);
+}
+.btn-terteary {
+    color: var(--white-color);
+    border: 2px solid var(--white-color);
+}
+.btn-primary:hover,
+.btn-secondary:hover,
+.btn-terteary:hover {
+    opacity: 0.7;
+}
+
+.title {
+    text-align: center;
+    padding-top: 96px;
+    padding-bottom: 40px;
+}
+.title span {
+    display: block;
+    color: var(--primary-color);
+    font-size: 18px;
+    line-height: 23px;
+}
+
+/*******************
+Style
+*******************/
+/* Header */
+.header {
+    height: 78px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header i {
+    font-size: 32px;
+}
+/* Banner */
+.main-banner {
+    background-image: url('../img/banner.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.banner {
+    height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.banner p {
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+}
+.banner span {
+    color: var(--primary-color);
+}
+
+.banner div a:not(:last-child) {
+    margin-right: 20px;
+}
+
+/* Features */
+.features {
+    display: flex;
+    flex-wrap: wrap; /* default: nowrap*/
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.card-1 {
+    background-color: var(--quaternary-color);
+    /* width: 280px; */
+    max-width: 280px;
+    width: 23.72881355932203%;
+    text-align: center;
+    padding: 25px 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.card-1 span {
+    color: var(--primary-color);
+    font-size: 65px;
+    line-height: 62px;
+}
+.card-1 h3 {
+    margin-top: 5px;
+}
+.features .card-1:not(:last-child) {
+    margin-right: 1.694915254237288%; /* 20px */
+}
+
+/* My Services */
+.my-services {
+    padding-bottom: 40px;
+}
+.card-2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.card-2 figure {
+    max-width: 700px;
+    width: 59.3220338983050%;
+    margin-right: 1.694915254237288%;
+    position: relative;
+}
+.card-2 figcaption {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    width: 140px;
+    padding: 10px 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+.card-2 div {
+    max-width: 460px;
+    width: 38.98305084745763%;
+}
+
+.main-my-services .card-2:nth-child(3) {
+    flex-direction: row-reverse;
+}
+.main-my-services .card-2:nth-child(3) figure {
+    margin-right: 0;
+    margin-left: 1.694915254237288%;
+}
+/*
+.reverse {
+    flex-direction: row-reverse;
+}
+.reverse figure {
+    margin-right: 0;
+}
+*/
+
+/* WhatssApp */
+.main-whatssapp {
+    background-color: var(--secondary-color)
+}
+.whatssapp {
+    text-align: center;
+    padding: 118px 0;
+}
+.whatssapp h2 {
+    color: var(--white-color)
+}
+
+/* Recommendations */
+.recommendations {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+.card-3 {
+    background-color: var(--quaternary-color);
+    max-width: 380px;
+    width: 32.20338983050847%;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    border: 1px solid grey;
+}
+.card-3 figcaption {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.card-3 figcaption span {
+    font-weight: 400;
+    color: var(--terterary-color)
+}
+.card-3 img {
+    margin: 0 auto 17px;
+}
+.card-3 span {
+    display: block;
+}
+.card-3 p {
+    color: var(--terterary-color);
+    text-align: center;
+}
+.recommendations .card-3:not(:last-child) {
+    margin-right: 1.694915254237288%;
+}
+
+/* Form */
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 70px;
+    /* flex-direction: column; */
+}
+.form input {
+    height: 56px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 18px 21px;
+}
+.form textarea {
+    height: 175px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 18px 21px;
+}
+.form input,
+.form textarea {
+    max-width: 1180px;
+    width: 100%;
+}
+.form :nth-child(1) {
+    margin-right: 1.694915254237288%;
+}
+.form :nth-child(1),
+.form :nth-child(2) {
+    max-width: 580px;
+    width: 49.15254237288136%;
+}
+.form :not(:nth-child(4),:nth-child(5)) {
+    margin-bottom: 30px;
+}
+
+/* Footer */
+.main-footer {
+    background-color: var(--black-color);
+}
+.main-footer ul {
+    display: flex;
+    justify-content: center;
+}
+.main-footer li a {
+    color: var(--white-color);
+    font-size: 24px;
+    line-height: 24px;
+    display: inline-block;
+}
+.main-footer li a:hover {
+    color: var(--primary-color);
+    transform: scale(1.3); /* Antony quizo*/
+}
+.main-footer li:not(:last-child) {
+    margin-right: 15px;
+}
+.main-footer p {
+    color: var(--terterary-color);
+    text-align: center;
+    margin-top: 28px;
+}
+.main-footer p a {
+    color: var(--terterary-color);
+    text-decoration: underline;
+}
+.footer {
+    padding: 54px 0;
+}
+
+/*******************
+Media Queries
+*******************/
+/* 1024px */
+/* 992px */
+/* 768px */
+/* 640px */
+/* 480px */
+/* 360px */
+/* 320px */
+@media screen and (max-width: 1024px) {
+    .banner {
+        height: 480px;
+    }
+}
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 54px;
+        line-height: 64px;
+    }
+
+    h2 {
+        font-size: 42px;
+        line-height: 48px;
+    }
+
+    .btn {
+        width: 128px;
+        padding: 6px 0;
+    }
+
+    .banner {
+        height: 400px;
+    }
+
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-1 {
+        width: 100%;
+    }
+    .features .card-1:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .card-2 {
+        flex-direction: column !important;
+    }
+    .card-2 figure {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .card-2 div {
+        max-width: initial;
+        width: 100%;
+    }
+    .main-my-services .card-2:nth-child(3) figure {
+        margin-left: 0;
+    }
+
+    .recommendations {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-3 {
+        width: 100%;
+    }
+
+    .whatssapp {
+        padding: 54px 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    h1 {
+        font-size: 42px;
+        line-height: 44px;
+    }
+
+    h2 {
+        font-size: 34px;
+        line-height: 38px;
+    }
+
+    .card-2 figcaption {
+        font-size: 12px;
+        width: 120px;
+        padding: 6px 0;
+    }
+}

@@ -49,6 +49,14 @@ Desarrollo Web con Html5, Css3 y JavaScript - 11° Edición - Docente: Jesús Al
 
 - Diseñando mockup con ADOBE XD
 
+## SESION 09
+
+- Pseudo Elementos
+- Unidades de medidas
+- Responsive Web Design (Diseño Adaptable)
+- Bootstrap 5.1
+- Proyecto con Bootstrap
+
 ## ELEMENTOS: INLINE & BLOCK
 
 ### ELEMENTOS DE BLOQUE
