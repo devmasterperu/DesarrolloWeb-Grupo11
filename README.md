@@ -45,6 +45,10 @@ Desarrollo Web con Html5, Css3 y JavaScript - 11° Edición - Docente: Jesús Al
 - Bordes redondeados
 - Maquetando Card (Diseño Adobe XD)
 
+## SESION 08
+
+- Diseñando mockup con ADOBE XD
+
 ## ELEMENTOS: INLINE & BLOCK
 
 ### ELEMENTOS DE BLOQUE
