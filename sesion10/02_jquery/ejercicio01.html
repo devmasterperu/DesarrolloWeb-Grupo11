@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Descripción de nuestra web">
+        <title>Devmaster Perú</title>
+        <style>
+            div {
+                width: 320px;
+                height: 100vh;
+                background-color: rgba(0,0,0,0.6);
+
+                position: fixed;
+                top: 0;
+                right: -320px;
+            }
+            div.active {
+                right: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <button id="icon-menu">X</button>
+        <div id="menu"></div>
+
+        <h1 id="titulo" style="color: red"></h1>
+        <ul id="lista">
+
+        </ul>
+        <table>
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>nombre</th>
+                </tr>
+            </thead>
+            <tbody id="tabla" class="border">
+                
+            </tbody>
+        </table>
+
+        <!-- jQuery -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="js/app1.js"></script>
+    </body>
+</html>
